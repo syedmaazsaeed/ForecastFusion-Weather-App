@@ -1,8 +1,8 @@
-                                                                       ** 🌦️ ForecastFusion Weather App 🌦️**
+ ** 🌦️ ForecastFusion Weather App 🌦️**
 
 ForecastFusion Weather App! It is one of the cool, modern web application for weather forecasting that delivers accurate and beautiful screens, which provides regional temperature predictions in a neat TIME oriented interface. ForecastFusion want it be a part when you are plan out your day, or just simple daily weather info
 
-  ** 🚀 Features**
+  **🚀 Features**
 
 🌦️ Current Weather: View the current temperature, weather conditions, and more.
 
