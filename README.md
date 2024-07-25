@@ -27,51 +27,7 @@ React-Leaflet: For interactive weather maps.
 
 Tailwind CSS: For styling the application.
 
-🎯 Getting Started
 
-Prerequisites
-
-Node.js: Ensure you have Node.js installed on your machine. You can download it from nodejs.org.
-
-API Key: Obtain an API key from OpenWeatherMap and set it up in your environment variables.
-
- Create a .env file in the root directory and add:
-
-RapidApikey=your_api_key_here
-
-Installation
-
-Clone the repository: git clone https://github.com/syedmaazsaeed/forecastfusion-weather-app.git
-
-Navigate to the project directory:
-
-cd forecastfusion-weather-app
-
-Install dependencies:
-
-npm install
-
-Start the development server:
-
-npm run dev
-
-
-🖼️ Screenshots
-
-
-🤔 How It Works
-
-Voice Search: Click the microphone icon or press 'Enter' to start a voice search and receive real-time weather updates.
-
-Weather Map: Explore weather conditions globally with interactive maps.
-
-Detailed Forecast: Get detailed hourly and daily forecasts for your selected location.
-
-🛠️ Contributing
-
-We welcome contributions to improve the ForecastFusion Weather App! To get started:
-
-Fork the repository.
 
 Create a new branch: git checkout -b feature/your-feature.
 
