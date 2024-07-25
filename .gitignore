@@ -17,6 +17,7 @@ dist-ssr/
 
 # Local environment files
 *.local
+.env
 
 # Editor directories and files
 .vscode/*
@@ -29,6 +30,15 @@ dist-ssr/
 *.sln
 *.sw?
 
-# Dependency files
+# Ignore these specific config files
+.eslintrc.cjs
+postcss.config.js
+tailwind.config.js
+vite.config.js
+
+# Ignore package files if not needed (usually should be included)
 package-lock.json
 package.json
+
+# Ignore the public folder if not needed
+
