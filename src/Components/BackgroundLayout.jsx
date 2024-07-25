@@ -7,7 +7,7 @@ import Cloudy from '../assets/Images/Cloudy.jpg'
 import Rainy from '../assets/Images/Rainy.jpg'
 import Snow from '../assets/Images/snow.jpg'
 import Stormy from '../assets/Images/Stormy.jpg'
-// import Sunny from '../assets/images/Sunny.jpg'
+
 
 const BackgroundLayout = () => {
 

@@ -37,11 +37,11 @@ function App() {
       <BackgroundLayout />
       <main className='w-full flex flex-wrap gap-8 py-4 px-[10%] items-center justify-center'>
         <WeatherCard
-          place={thisLocation}
-          windspeed={weather.wspd}
+          place={place}
+          windspeed={weather.windspeed}
           humidity={weather.humidity}
           temperature={weather.temp}
-          heatIndex={weather.heatindex}
+          heatIndex={weather.feelslike}
           iconString={weather.conditions}
           conditions={weather.conditions}
         />
