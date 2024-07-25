@@ -1,12 +1,35 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import search from './assets/Icons/search.svg';
 import { useStateContext } from './Context';
-import { BackgroundLayout, WeatherCard, MiniCard } from './Components';
-import HourlyForecast from './Components/HourlyForecast'; // Import HourlyForecast
+import { BackgroundLayout, WeatherCard, MiniCard, HourlyForecast } from './Components'; // Import WeatherMap
 
 function App() {
   const [input, setInput] = useState('');
-  const { weather, thisLocation, values, place, setPlace } = useStateContext();
+  const { weather, values, place, setPlace } = useStateContext();
+  const [recognition, setRecognition] = useState(null);
+
+  useEffect(() => {
+    if (window.SpeechRecognition || window.webkitSpeechRecognition) {
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      const recognitionInstance = new SpeechRecognition();
+      recognitionInstance.interimResults = true;
+      recognitionInstance.lang = 'en-US';
+      recognitionInstance.onresult = (event) => {
+        const result = event.results[0][0].transcript;
+        setInput(result);
+        setPlace(result);
+      };
+      setRecognition(recognitionInstance);
+    } else {
+      console.log('SpeechRecognition API not supported');
+    }
+  }, []);
+
+  const startVoiceSearch = () => {
+    if (recognition) {
+      recognition.start();
+    }
+  };
 
   const submitCity = () => {
     setPlace(input);
@@ -32,6 +55,9 @@ function App() {
               value={input}
               onChange={(e) => setInput(e.target.value)}
             />
+            <button onClick={startVoiceSearch} className='bg-green-500 p-2 rounded-full text-white'>
+              🎤
+            </button>
           </div>
         </div>
       </nav>
@@ -46,21 +72,17 @@ function App() {
           iconString={weather.conditions}
           conditions={weather.conditions}
         />
-
         <div className='flex justify-center gap-8 flex-wrap w-[60%]'>
-          {
-            values?.slice(1, 7).map(curr => (
-              <MiniCard
-                key={curr.datetime}
-                time={curr.datetime}
-                temp={curr.temp}
-                iconString={curr.conditions}
-              />
-            ))
-          }
+          {values?.slice(1, 7).map(curr => (
+            <MiniCard
+              key={curr.datetime}
+              time={curr.datetime}
+              temp={curr.temp}
+              iconString={curr.conditions}
+            />
+          ))}
         </div>
-
-        <HourlyForecast /> {/* Add HourlyForecast component */}
+        <HourlyForecast />
       </main>
     </div>
   );

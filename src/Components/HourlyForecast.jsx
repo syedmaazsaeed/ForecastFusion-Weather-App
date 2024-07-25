@@ -1,21 +1,19 @@
-// src/Components/HourlyForecast.jsx
 import { useState, useEffect } from 'react';
 import { useStateContext } from '../Context';
 import MiniCard from './MiniCard';
 import { Line } from 'react-chartjs-2';
 import { Chart as ChartJS, LineElement, PointElement, CategoryScale, LinearScale, Title, Tooltip, Legend } from 'chart.js';
 
-
 ChartJS.register(LineElement, PointElement, CategoryScale, LinearScale, Title, Tooltip, Legend);
 
 const HourlyForecast = () => {
     const { values } = useStateContext();
     const [hourlyData, setHourlyData] = useState([]);
-    const [selectedRange, setSelectedRange] = useState(24); 
+    const [selectedRange, setSelectedRange] = useState(24);
 
     useEffect(() => {
         if (values.length) {
-            setHourlyData(values.slice(0, selectedRange)); 
+            setHourlyData(values.slice(0, selectedRange));
         }
     }, [values, selectedRange]);
 
@@ -29,29 +27,30 @@ const HourlyForecast = () => {
             fill: true,
         }],
     };
+
     const chartOptions = {
         responsive: true,
         plugins: {
             legend: { display: false },
             title: {
                 display: true,
-                text: 'Temperature Trend',  
+                text: 'Temperature Trend',
                 color: 'red',
                 font: {
-                    size: 20, 
-                    weight: 'bold', 
+                    size: 20,
+                    weight: 'bold',
                 },
             },
             tooltip: {
                 backgroundColor: '#333333',
-                titleColor: '#FFFFFF', 
-                bodyColor: '#FFFFFF', 
+                titleColor: '#FFFFFF',
+                bodyColor: '#FFFFFF',
             },
         },
         scales: {
             x: {
                 ticks: {
-                    color: '#FFFFFF', 
+                    color: '#FFFFFF',
                 },
                 grid: {
                     color: 'rgba(255, 255, 255, 0.1)',
@@ -59,19 +58,19 @@ const HourlyForecast = () => {
             },
             y: {
                 ticks: {
-                    color: '#FFFFFF', 
+                    color: '#FFFFFF',
                 },
                 grid: {
-                    color: 'rgba(255, 255, 255, 0.1)', 
+                    color: 'rgba(255, 255, 255, 0.1)',
                 },
             },
         },
         elements: {
             line: {
-                borderColor: '#FF6F61', 
+                borderColor: '#FFD700',
             },
             point: {
-                backgroundColor: '#FF6F61', 
+                backgroundColor: '#FFD700',
             },
         },
     };
