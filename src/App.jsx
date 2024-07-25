@@ -2,6 +2,7 @@ import { useState } from 'react';
 import search from './assets/Icons/search.svg';
 import { useStateContext } from './Context';
 import { BackgroundLayout, WeatherCard, MiniCard } from './Components';
+import HourlyForecast from './Components/HourlyForecast'; // Import HourlyForecast
 
 function App() {
   const [input, setInput] = useState('');
@@ -58,6 +59,8 @@ function App() {
             ))
           }
         </div>
+
+        <HourlyForecast /> {/* Add HourlyForecast component */}
       </main>
     </div>
   );
