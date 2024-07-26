@@ -39,7 +39,7 @@ function App() {
   return (
     <div className='w-full h-screen text-white px-9'>
       <nav className='w-full p-3 flex flex-col md:flex-row justify-between items-center md:justify-between'>
-        <h1 className='font-bold tracking-wide text-3xl mb-4 md:mb-0'>Climatic Weather App</h1>
+        <h1 className='font-bold tracking-wide text-2xl sm:text-3xl mb-4 md:mb-0 whitespace-nowrap  '>Climatic Weather App</h1>
         <div className='flex justify-center items-center w-full md:w-auto'>
           <div className='bg-black w-full md:w-[20rem] shadow-2xl rounded-full flex items-center p-2 gap-2'>
             <img src={search} alt="search" className='w-[1.5rem] h-[1.5rem]' />
@@ -72,7 +72,7 @@ function App() {
           iconString={weather.conditions}
           conditions={weather.conditions}
         />
-        <div className='flex justify-center gap-8 flex-wrap w-[60%]'>
+        <div className='flex justify-center gap-4 flex-wrap w-full md:w-[60%]'>
           {values?.slice(1, 7).map(curr => (
             <MiniCard
               key={curr.datetime}

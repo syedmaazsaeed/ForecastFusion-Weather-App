@@ -106,7 +106,7 @@ const HourlyForecast = () => {
                     Conditions: {hourlyData.length ? hourlyData[0].conditions : 'N/A'}
                 </p>
             </div>
-            <div className='flex flex-wrap gap-4'>
+            <div className='flex flex-wrap gap-4 justify-center'>
                 {hourlyData.map((hour) => (
                     <MiniCard
                         key={hour.datetime}
