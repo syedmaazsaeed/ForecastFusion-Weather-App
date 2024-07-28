@@ -1,6 +1,4 @@
-<svg width="500" height="80">
-  <text x="10" y="40" font-size="40" fill="#3498db" font-weight="bold">🌦️ ForecastFusion Weather App 🌦️</text>
-</svg>
+<h1 style="font-size: 2em; font-weight: bold;">🌦️ ForecastFusion Weather App 🌦️</h1>
 
 
 
