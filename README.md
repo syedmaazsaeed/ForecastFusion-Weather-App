@@ -78,15 +78,11 @@ Detailed Forecast: Get detailed hourly and daily forecasts for your selected loc
 
 ## 🌐 **Live Demo**
 
-Experience the **ForecastFusion Weather App** in action by checking out the live demo. Click the link below to open it in a new tab:
+Experience the **ForecastFusion Weather App** in action by checking out the live demo. Click the link below:
 
-<a href="https://forecastfusion-app.netlify.app/" target="_blank" rel="noopener noreferrer">See the Live Demo</a>
+[See the Live Demo](https://forecastfusion-app.netlify.app/)
 
 
-
-## 🛠️🌟 **Contributors**
-
-Thank you to all the contributors who helped improve the **ForecastFusion Weather App**. Your efforts are greatly appreciated!
 
 ## 🛠️🌟 **Contributors**
 
