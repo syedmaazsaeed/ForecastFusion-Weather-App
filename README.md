@@ -1,4 +1,4 @@
-<h1 style="font-size: 2em; font-weight: bold;">🌦️ ForecastFusion Weather App 🌦️</h1>
+<h1 style="font-size: 2em; font-weight: bold; color: #3498db;">🌦️ ForecastFusion Weather App 🌦️</h1>
 
 
  ForecastFusion Weather App redefines the way you check the weather. It combines modern aesthetics with precision, offering a user-friendly experience that is both engaging and informative. The app features a sleek, time-oriented design that delivers accurate regional temperature forecasts with ease. Whether you are planning your day or just keeping an eye on the weather, this app provides a convenient and reliable experience.
@@ -77,14 +77,14 @@ Weather Map: Explore weather conditions globally with interactive maps.
 
 Detailed Forecast: Get detailed hourly and daily forecasts for your selected location.
 
-<h2 style="font-size: 2em; font-weight: bold;">## 🌐 **Live Demo** </h2>
+<h2 style="font-size: 2em; font-weight: bold;">## 🌐 Live Demo </h2>
 
 Experience the **ForecastFusion Weather App** in action by checking out the live demo. Click the link below:
 
 [See the Live Demo](https://forecastfusion-app.netlify.app/)
 
 
-<h2 style="font-size: 2em; font-weight: bold;">##🛠️🌟 Contributor  </h2>
+<h2 style="font-size: 2em; font-weight: bold;">##🛠️🌟 Contributor </h2>
 
 <a href="https://ibb.co/QfDTByP" target="_blank" rel="noopener noreferrer">
   <img src="https://i.ibb.co/QfDTByP/your-profile-image.jpg" alt="Syed Maaz Saeed" style="border-radius: 50%; width: 100px; height: 100px;"/>
