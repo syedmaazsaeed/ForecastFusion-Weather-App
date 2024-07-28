@@ -76,9 +76,23 @@ Weather Map: Explore weather conditions globally with interactive maps.
 
 Detailed Forecast: Get detailed hourly and daily forecasts for your selected location.
 
-🌐 Live Demo
-Check out the live demo of the ForecastFusion Weather App here to see it in action! (https://forecastfusion-app.netlify.app/)
+## 🌐 **Live Demo**
 
-🛠️🌟 Contributors:
+Experience the **ForecastFusion Weather App** in action by checking out the live demo. Click the link below to open it in a new tab:
 
-https://ibb.co/QfDTByP
+<a href="https://forecastfusion-app.netlify.app/" target="_blank">See the Live Demo</a>
+
+
+## 🛠️🌟 **Contributors**
+
+Thank you to all the contributors who helped improve the **ForecastFusion Weather App**. Your efforts are greatly appreciated!
+
+### **Contributor**
+
+<a href="https://ibb.co/QfDTByP" target="_blank">
+  <img src="https://i.ibb.co/QfDTByP/your-profile-image.jpg" alt="Syed Maaz Saeed" style="border-radius: 50%; width: 150px; height: 150px;"/>
+</a>
+
+**Syed Maaz Saeed**  
+ Developer
+
