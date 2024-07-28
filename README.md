@@ -1,4 +1,5 @@
-<strong>🌦️ ForecastFusion Weather App 🌦️</strong>
+<h1 style="font-size: 2em; font-weight: bold;">🌦️ ForecastFusion Weather App 🌦️</h1>
+
 
  ForecastFusion Weather App redefines the way you check the weather. It combines modern aesthetics with precision, offering a user-friendly experience that is both engaging and informative. The app features a sleek, time-oriented design that delivers accurate regional temperature forecasts with ease. Whether you are planning your day or just keeping an eye on the weather, this app provides a convenient and reliable experience.
 
