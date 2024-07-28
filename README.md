@@ -49,7 +49,7 @@ RapidApikey=your_api_key (https://www.visualcrossing.com/weather-api)
 
 <h6 style="font-size: 2em; font-weight: bold;"> Clone the repository: </h6> git clone https://github.com/syedmaazsaeed/forecastfusion-weather-app.git
 
-Navigate to the project directory:
+<h6 style="font-size: 2em; font-weight: bold;"> Navigate to the project directory: </h6>
 
 cd forecastfusion-weather-app
 
@@ -57,7 +57,7 @@ cd forecastfusion-weather-app
 
 npm install
 
-Start the development server:
+<h6 style="font-size: 2em; font-weight: bold;"> Start the development server: </h6>
 
 npm run dev
 
@@ -72,15 +72,15 @@ npm run dev
 
 <h2 style="font-size: 2em; font-weight: bold;">🤔 How It Works </h2>
 
-Voice Search: Click the microphone icon or press 'Enter' to start a voice search and receive real-time weather updates.
+<h6 style="font-size: 2em; font-weight: bold;"> Voice Search: </h6> Click the microphone icon or press 'Enter' to start a voice search and receive real-time weather updates.
 
-Weather Map: Explore weather conditions globally with interactive maps.
+<h6 style="font-size: 2em; font-weight: bold;"> Weather Map: </h6> Explore weather conditions globally with interactive maps.
 
-Detailed Forecast: Get detailed hourly and daily forecasts for your selected location.
+<h6 style="font-size: 2em; font-weight: bold;"> Detailed Forecast: </h6> Get detailed hourly and daily forecasts for your selected location.
 
 <h2 style="font-size: 2em; font-weight: bold;">## 🌐 Live Demo </h2>
 
-Experience the **ForecastFusion Weather App** in action by checking out the live demo. Click the link below:
+<h6 style="font-size: 2em; font-weight: bold;"> Experience the **ForecastFusion Weather App** in action by checking out the live demo. Click the link below:
 
 [See the Live Demo](https://forecastfusion-app.netlify.app/)
 
