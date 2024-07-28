@@ -58,6 +58,11 @@ npm run dev
 
 🖼️ Screenshots
 
+![Homepage View](src/assets/Images/HomePageView.png)
+
+### Forecast View
+![Forecast View](src/assets/Images/SearchingView.png)
+
 
 🤔 How It Works
 
