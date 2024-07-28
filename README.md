@@ -17,7 +17,7 @@ Hourly and Daily Forecasts: View detailed hourly and daily forecasts.
 Responsive Design: Enjoy a seamless experience across all devices, from mobile to desktop.
 
 <h1 style="font-size: 2em; font-weight: bold;">🔧 Technologies Used </h1>
-Frontend 🌈
+<h3 style="font-size: 2em; font-weight: bold;">Frontend 🌈 </h3>
 
 React: For building the user interface.
 
@@ -25,7 +25,7 @@ Vite: For fast development and build tools.
 
 Tailwind CSS: For styling the application.
 
-APIs 🌐
+<h3 style="font-size: 2em; font-weight: bold;">APIs 🌐 </h3>
 
 OpenWeatherMap API: For fetching weather data.
 
@@ -84,12 +84,7 @@ Experience the **ForecastFusion Weather App** in action by checking out the live
 [See the Live Demo](https://forecastfusion-app.netlify.app/)
 
 
-
-<h2 style="font-size: 2em; font-weight: bold;">## 🛠️🌟 **Contributors** </h2>
-
-Thank you to all the contributors who helped improve the **ForecastFusion Weather App**. Your efforts are greatly appreciated!
-
-### **Contributor**
+<h2 style="font-size: 2em; font-weight: bold;">##🛠️🌟 Contributor  </h2>
 
 <a href="https://ibb.co/QfDTByP" target="_blank" rel="noopener noreferrer">
   <img src="https://i.ibb.co/QfDTByP/your-profile-image.jpg" alt="Syed Maaz Saeed" style="border-radius: 50%; width: 100px; height: 100px;"/>
