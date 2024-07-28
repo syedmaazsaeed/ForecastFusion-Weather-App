@@ -7,47 +7,47 @@
 
 <h1 style="font-size: 2em; font-weight: bold;">🚀 Features </h1>
  
-Current Weather: Access real-time temperature and weather conditions.
+<h6 style="font-size: 2em; font-weight: bold;"> Current Weather: </h6> Access real-time temperature and weather conditions.
 
-Voice Search: Search for weather updates using voice commands 🎤.
+<h6 style="font-size: 2em; font-weight: bold;"> Voice Search: </h6> Search for weather updates using voice commands 🎤.
 
-Weather Map: Explore global weather conditions with interactive maps 🗺️.
+<h6 style="font-size: 2em; font-weight: bold;"> Weather Map: </h6> Explore global weather conditions with interactive maps 🗺️.
 
-Hourly and Daily Forecasts: View detailed hourly and daily forecasts.
+<h6 style="font-size: 2em; font-weight: bold;"> Hourly and Daily Forecasts: </h6> View detailed hourly and daily forecasts.
 
-Responsive Design: Enjoy a seamless experience across all devices, from mobile to desktop.
+<h6 style="font-size: 2em; font-weight: bold;"> Responsive Design: </h6> Enjoy a seamless experience across all devices, from mobile to desktop.
 
 <h1 style="font-size: 2em; font-weight: bold;">🔧 Technologies Used </h1>
 <h3 style="font-size: 2em; font-weight: bold;">Frontend 🌈 </h3>
 
-React: For building the user interface.
+<h6 style="font-size: 2em; font-weight: bold;"> React: </h6> For building the user interface.
 
-Vite: For fast development and build tools.
+<h6 style="font-size: 2em; font-weight: bold;"> Vite: </h6> For fast development and build tools.
 
-Tailwind CSS: For styling the application.
+<h6 style="font-size: 2em; font-weight: bold;"> Tailwind CSS: </h6> For styling the application.
 
 <h3 style="font-size: 2em; font-weight: bold;">APIs 🌐 </h3>
 
-OpenWeatherMap API: For fetching weather data.
+<h6 style="font-size: 2em; font-weight: bold;"> OpenWeatherMap API: </h6> For fetching weather data.
 
-React-Leaflet: For interactive weather maps.
+<h6 style="font-size: 2em; font-weight: bold;"> React-Leaflet: </h6> For interactive weather maps.
 
 
 <h1 style="font-size: 2em; font-weight: bold;">🎯 Getting Started </h1>
 
 <h2 style="font-size: 2em; font-weight: bold;">Prerequisites </h2>
 
-Node.js: Ensure you have Node.js installed on your machine. You can download it from nodejs.org.
+<h6 style="font-size: 2em; font-weight: bold;"> Node.js: </h6> Ensure you have Node.js installed on your machine. You can download it from nodejs.org.
 
-API Key: Obtain an API key from OpenWeatherMap and set it up in your environment variables.
+<h6 style="font-size: 2em; font-weight: bold;"> API Key: </h6> Obtain an API key from OpenWeatherMap and set it up in your environment variables.
 
- Create a .env file in the root directory and add:
+<h6 style="font-size: 2em; font-weight: bold;"> Create a .env file in the root directory and add: </h6>
 
 RapidApikey=your_api_key (https://www.visualcrossing.com/weather-api)
 
 <h2 style="font-size: 2em; font-weight: bold;">Installation</h2>
 
-Clone the repository: git clone https://github.com/syedmaazsaeed/forecastfusion-weather-app.git
+<h6 style="font-size: 2em; font-weight: bold;"> Clone the repository: </h6> git clone https://github.com/syedmaazsaeed/forecastfusion-weather-app.git
 
 Navigate to the project directory:
 
