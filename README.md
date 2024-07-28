@@ -7,30 +7,30 @@
 
 <h1 style="font-size: 2em; font-weight: bold;">🚀 Features </h1>
  
-<h6 style="font-size: 2em; font-weight: bold;"> Current Weather: </h6> Access real-time temperature and weather conditions.
+<h5 style="font-size: 2em; font-weight: bold;"> Current Weather: </h5> Access real-time temperature and weather conditions.
 
-<h6 style="font-size: 2em; font-weight: bold;"> Voice Search: </h6> Search for weather updates using voice commands 🎤.
+<h5 style="font-size: 2em; font-weight: bold;"> Voice Search: </h5> Search for weather updates using voice commands 🎤.
 
-<h6 style="font-size: 2em; font-weight: bold;"> Weather Map: </h6> Explore global weather conditions with interactive maps 🗺️.
+<h5 style="font-size: 2em; font-weight: bold;"> Weather Map: </h5> Explore global weather conditions with interactive maps 🗺️.
 
-<h6 style="font-size: 2em; font-weight: bold;"> Hourly and Daily Forecasts: </h6> View detailed hourly and daily forecasts.
+<h5 style="font-size: 2em; font-weight: bold;"> Hourly and Daily Forecasts: </h5> View detailed hourly and daily forecasts.
 
-<h6 style="font-size: 2em; font-weight: bold;"> Responsive Design: </h6> Enjoy a seamless experience across all devices, from mobile to desktop.
+<h5 style="font-size: 2em; font-weight: bold;"> Responsive Design: </h5> Enjoy a seamless experience across all devices, from mobile to desktop.
 
 <h1 style="font-size: 2em; font-weight: bold;">🔧 Technologies Used </h1>
 <h3 style="font-size: 2em; font-weight: bold;">Frontend 🌈 </h3>
 
-<h6 style="font-size: 2em; font-weight: bold;"> React: </h6> For building the user interface.
+<h5 style="font-size: 2em; font-weight: bold;"> React: </h5> For building the user interface.
 
-<h6 style="font-size: 2em; font-weight: bold;"> Vite: </h6> For fast development and build tools.
+<h5 style="font-size: 2em; font-weight: bold;"> Vite: </h5> For fast development and build tools.
 
-<h6 style="font-size: 2em; font-weight: bold;"> Tailwind CSS: </h6> For styling the application.
+<h5 style="font-size: 2em; font-weight: bold;"> Tailwind CSS: </h5> For styling the application.
 
 <h3 style="font-size: 2em; font-weight: bold;">APIs 🌐 </h3>
 
-<h6 style="font-size: 2em; font-weight: bold;"> OpenWeatherMap API: </h6> For fetching weather data.
+<h5 style="font-size: 2em; font-weight: bold;"> OpenWeatherMap API: </h5> For fetching weather data.
 
-<h6 style="font-size: 2em; font-weight: bold;"> React-Leaflet: </h6> For interactive weather maps.
+<h5 style="font-size: 2em; font-weight: bold;"> React-Leaflet: </h5> For interactive weather maps.
 
 
 <h1 style="font-size: 2em; font-weight: bold;">🎯 Getting Started </h1>
