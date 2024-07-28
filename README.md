@@ -78,14 +78,14 @@ npm run dev
 
 <h6 style="font-size: 2em; font-weight: bold;"> Detailed Forecast: </h6> Get detailed hourly and daily forecasts for your selected location.
 
-<h2 style="font-size: 2em; font-weight: bold;">## 🌐 Live Demo </h2>
+<h2 style="font-size: 2em; font-weight: bold;"> 🌐 Live Demo </h2>
 
 <h6 style="font-size: 2em; font-weight: bold;"> Experience the **ForecastFusion Weather App** in action by checking out the live demo. Click the link below:
 
 [See the Live Demo](https://forecastfusion-app.netlify.app/)
 
 
-<h2 style="font-size: 2em; font-weight: bold;">##🛠️🌟 Contributor </h2>
+<h2 style="font-size: 2em; font-weight: bold;">🛠️🌟 Contributor </h2>
 
 <a href="https://ibb.co/QfDTByP" target="_blank" rel="noopener noreferrer">
   <img src="https://i.ibb.co/QfDTByP/your-profile-image.jpg" alt="Syed Maaz Saeed" style="border-radius: 50%; width: 100px; height: 100px;"/>
