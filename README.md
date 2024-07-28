@@ -1,5 +1,5 @@
-**🌦️ ForecastFusion Weather App 🌦️
-** 
+<strong>🌦️ ForecastFusion Weather App 🌦️</strong>
+
  ForecastFusion Weather App redefines the way you check the weather. It combines modern aesthetics with precision, offering a user-friendly experience that is both engaging and informative. The app features a sleek, time-oriented design that delivers accurate regional temperature forecasts with ease. Whether you are planning your day or just keeping an eye on the weather, this app provides a convenient and reliable experience.
 
 
@@ -90,7 +90,7 @@ Thank you to all the contributors who helped improve the **ForecastFusion Weathe
 
 ### **Contributor**
 
-<a href="https://ibb.co/QfDTByP" target="_blank">
+<a href="https://ibb.co/QfDTByP" target="_blank" rel="noopener noreferrer">
   <img src="https://i.ibb.co/QfDTByP/your-profile-image.jpg" alt="Syed Maaz Saeed" style="border-radius: 50%; width: 100px; height: 100px;"/>
 </a>
 
