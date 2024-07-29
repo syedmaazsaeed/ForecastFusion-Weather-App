@@ -7,7 +7,7 @@
 
 <h1 style="font-size: 2em; font-weight: bold;">🚀 Features </h1>
  
-<h6 style="font-size: 2em; font-weight: bold;"> Current Weather: </h6> Access real-time temperature and weather conditions.
+<h6 style="font-size: 2em; font-weight: bold;"> Current Weather: </h6> Get the current weather and temperature in real time.
 
 <h6 style="font-size: 2em; font-weight: bold;"> Voice Search: </h6> Search for weather updates using voice commands 🎤.
 
@@ -37,9 +37,9 @@
 
 <h2 style="font-size: 2em; font-weight: bold;">Prerequisites </h2>
 
-<h6 style="font-size: 2em; font-weight: bold;"> Node.js: </h6> Ensure you have Node.js installed on your machine. You can download it from nodejs.org.
+<h6 style="font-size: 2em; font-weight: bold;"> Node.js: </h6> Make sure your computer is running Node.js. It is available for download from nodejs.org.
 
-<h6 style="font-size: 2em; font-weight: bold;"> API Key: </h6> Obtain an API key from OpenWeatherMap and set it up in your environment variables.
+<h6 style="font-size: 2em; font-weight: bold;"> API Key: </h6> Get an OpenWeatherMap API key, then configure it in your environment variables.
 
 <h6 style="font-size: 2em; font-weight: bold;"> Create a .env file in the root directory and add: </h6>
 
@@ -72,7 +72,7 @@ npm run dev
 
 <h2 style="font-size: 2em; font-weight: bold;">🤔 How It Works </h2>
 
-<h6 style="font-size: 2em; font-weight: bold;"> Voice Search: </h6> Click the microphone icon or press 'Enter' to start a voice search and receive real-time weather updates.
+<h6 style="font-size: 2em; font-weight: bold;"> Voice Search: </h6> Press 'Enter' or click the microphone button to start a voice search and get the most recent weather information.
 
 <h6 style="font-size: 2em; font-weight: bold;"> Weather Map: </h6> Explore weather conditions globally with interactive maps.
 
@@ -80,7 +80,7 @@ npm run dev
 
 <h2 style="font-size: 2em; font-weight: bold;"> 🌐 Live Demo </h2>
 
-<h6 style="font-size: 2em; font-weight: bold;"> Experience the **ForecastFusion Weather App** in action by checking out the live demo. Click the link below:
+<h6 style="font-size: 2em; font-weight: bold;"> Check out the live demo to see the **ForecastFusion Weather App** in action. Click the following link:
 
 [See the Live Demo](https://forecastfusion-app.netlify.app/)
 
